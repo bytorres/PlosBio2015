@@ -1,5 +1,6 @@
 %%% Converting phase plane data to polar coordinates and finding the
 %%% optimal shift.
+% Data.txt is available in the github repository
 
 % Step 1. Import Data into a Table 
 % 4 columns: x axis, y axis, Status (Categorical),Status(numeric)
