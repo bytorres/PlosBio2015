@@ -1,4 +1,5 @@
-## This file is for analyzing data that has been converted to polar coordinates in MATLAB
+## This file is for analyzing data that has been converted to polar coordinates in MATLAB using the Polar_Transformation.m script.
+## The data saved after Polar_Transformation.m is saved as Polar.txt (available in github repositiory)
 
 ## Required packages (download from Packages -> install package)
 # ggplot2
@@ -10,7 +11,7 @@
 
 ### Import Data and assign any factors (such as treatment) and the level order
 
-poldat <- read.delim("~/Desktop/PolarScripts&SampleData/Polar.txt", stringsAsFactors=FALSE)
+poldat <- read.delim("Polar.txt", stringsAsFactors=FALSE)
 poldat$Status = factor(poldat$Status, levels = c("Live","Dead"))
 
 ## Angle from 0 to 360
